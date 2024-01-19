@@ -1,0 +1,18 @@
+body {
+    overflow: hidden;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 35%;
+    height: 80%;
+    background-color: gray;
+    
+    box-shadow: 2px 3px 14px 3px rgba(0,137,0,0.88);
+    -webkit-box-shadow: 2px 3px 14px 3px rgba(0,137,0,0.88);
+    -moz-box-shadow: 2px 3px 14px 3px rgba(0,137,0,0.88);
+}
