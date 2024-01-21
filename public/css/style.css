@@ -1,20 +1,21 @@
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100dvw;
     height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(47, 47, 47);
 }
 
 .main {
     width: 400px;
     height: 80%;
-    background-color: gray;
+    background-color: rgb(68, 66, 66);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 5px;
+    gap: 3px;
     
     
     
@@ -24,13 +25,20 @@ body {
 }
 
 .horizontal {
-    
+   
     height: 20px;
     width: 20px;
-    background-color: lightgray;
-}
+    transition: opacity 0.3s linear;
+    border: 1px solid lightslategray;
+    background-color: transparent;
+    
+    
 
+}
 
 .horizontal:hover {
-    background-color: ;
+    
+    opacity: 0;
 }
+
+
