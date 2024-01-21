@@ -8,6 +8,8 @@ onHover.forEach((element) => {
     element.addEventListener('mouseout', () => {
         setTimeout(() => {
         element.style.backgroundColor = "transparent";
+        element.style.backgroundColor = "";
+        element.style.opacity = "1";
         }, 500);
 })
 })

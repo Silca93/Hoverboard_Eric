@@ -19,25 +19,24 @@ body {
     
     
     
-    box-shadow: 2px 3px 14px 3px rgba(0,137,0,0.88);
-    -webkit-box-shadow: 2px 3px 14px 3px rgba(0,137,0,0.88);
-    -moz-box-shadow: 2px 3px 14px 3px rgba(0,137,0,0.88);
 }
-
 .horizontal {
    
     height: 20px;
     width: 20px;
-    transition: opacity 0.3s linear;
+    transition: opacity 0s linear 0s;
     border: 1px solid lightslategray;
     background-color: transparent;
+    transition: box-shadow 0.2s ease-in-out;
+    
     
     
 
 }
 
 .horizontal:hover {
-    
+    box-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 20px #eeeeee;
+    transition: opacity 0.3s linear 0.3s;
     opacity: 0;
 }
 
